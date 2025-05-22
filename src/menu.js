@@ -1,0 +1,23 @@
+const menu = document.querySelector(".menu");
+
+const menuFunc = function() {
+const div1 = document.createElement("div");
+const head = document.createElement("h2");
+head.textContent = "MENU PAGE";
+
+div1.appendChild(head);
+
+const para = document.createElement("p");
+para.textContent = "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis animi beatae explicabo, quis optio placeat, ea nostrum illo laboriosam minus incidunt, error culpa quod hic nesciunt nam. Consectetur, architecto!";
+
+div1.appendChild(para);
+
+const para2 = document.createElement("p");
+para2.textContent = "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis animi beatae explicabo, quis optio placeat, ea nostrum illo laboriosam minus incidunt, error culpa quod hic nesciunt nam. Consectetur, architecto!";
+
+div1.appendChild(para2);
+
+menu.appendChild(div1);
+};
+
+export default menuFunc;
