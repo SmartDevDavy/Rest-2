@@ -18,6 +18,11 @@ para2.textContent = "   Lorem ipsum dolor sit amet consectetur adipisicing elit.
 div1.appendChild(para2);
 
 menu.appendChild(div1);
+
+div1.style.backgroundColor = "red";
+div1.style.color = "blue";
+div1.style.borderRadius = "15px";
+
 };
 
 export default menuFunc;

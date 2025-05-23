@@ -20,8 +20,9 @@ div1.appendChild(para2);
 
 home.appendChild(div1);
 
-div1.style.color="red";
-
+div1.style.backgroundColor = "red";
+div1.style.color = "blue";
+div1.style.borderRadius = "15px";
 
 };
 
