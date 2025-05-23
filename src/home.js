@@ -20,6 +20,9 @@ div1.appendChild(para2);
 
 home.appendChild(div1);
 
+div1.style.color="red";
+
+
 };
 
 export default homeFunc;
